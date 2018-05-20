@@ -15,5 +15,7 @@
         <file>image/princess/r_longattack4.png</file>
         <file>image/princess/lstand1.png</file>
         <file>image/princess/rstand1.png</file>
+        <file>image/princess/lmove1.png</file>
+        <file>image/princess/rmove1.png</file>
     </qresource>
 </RCC>

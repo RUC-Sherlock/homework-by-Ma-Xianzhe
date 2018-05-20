@@ -21,7 +21,16 @@ void Window::mouseMoveEvent(QMouseEvent *event)
         player.react(Princess::Rstand);
 }
 
-//void mousePressEvent(QMouseEvent *event);
+
+void Window::mousePressEvent(QMouseEvent *event)
+{
+    if(event->button()==Qt::LeftButton)
+    {
+        player.setDestination(event->pos());
+        player.react(Princess::Move);
+    }
+}
+
 void Window::paintEvent(QPaintEvent *event)
 {
     QPainter painter(this);

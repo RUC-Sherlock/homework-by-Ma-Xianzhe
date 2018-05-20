@@ -20,7 +20,7 @@ public:
     explicit Window(QWidget *parent = 0);
     ~Window();
     void mouseMoveEvent(QMouseEvent *event);
-    //void mousePressEvent(QMouseEvent *event);
+    void mousePressEvent(QMouseEvent *event);
     void paintEvent(QPaintEvent *event);
     void keyPressEvent(QKeyEvent *event);
     void timerEvent(QTimerEvent *event){update();}

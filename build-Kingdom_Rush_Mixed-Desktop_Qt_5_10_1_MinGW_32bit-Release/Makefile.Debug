@@ -112,6 +112,7 @@ compiler_rcc_clean:
 debug/qrc_resource.cpp: ../Kingdom_Rush_Mixed/resource.qrc \
 		D:/Qt/5.10.1/mingw53_32/bin/rcc.exe \
 		../Kingdom_Rush_Mixed/image/princess/rstand1.png \
+		../Kingdom_Rush_Mixed/image/princess/rmove1.png \
 		../Kingdom_Rush_Mixed/image/princess/l_longattack2.png \
 		../Kingdom_Rush_Mixed/image/princess/r_longattack4.png \
 		../Kingdom_Rush_Mixed/image/princess/l_longattack1.png \
@@ -119,6 +120,7 @@ debug/qrc_resource.cpp: ../Kingdom_Rush_Mixed/resource.qrc \
 		../Kingdom_Rush_Mixed/image/princess/lstand1.png \
 		../Kingdom_Rush_Mixed/image/princess/r_longattack2.png \
 		../Kingdom_Rush_Mixed/image/princess/l_longattack4.png \
+		../Kingdom_Rush_Mixed/image/princess/lmove1.png \
 		../Kingdom_Rush_Mixed/image/princess/r_longattack1.png \
 		../Kingdom_Rush_Mixed/image/princess/l_longattack3.png \
 		../Kingdom_Rush_Mixed/image/map/2.png \
@@ -520,6 +522,38 @@ debug/window.o: ../Kingdom_Rush_Mixed/window.cpp ../Kingdom_Rush_Mixed/window.h 
 		D:/Qt/5.10.1/mingw53_32/include/QtGui/qpen.h \
 		D:/Qt/5.10.1/mingw53_32/include/QtCore/QPoint \
 		ui_window.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtCore/QVariant \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/QAction \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qaction.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtGui/qicon.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qactiongroup.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/QApplication \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qapplication.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtCore/qcoreapplication.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtCore/qeventloop.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qdesktopwidget.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtGui/qguiapplication.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtGui/qinputmethod.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/QButtonGroup \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qbuttongroup.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/QHeaderView \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qheaderview.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qabstractitemview.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qframe.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtCore/qabstractitemmodel.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtCore/qitemselectionmodel.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qabstractitemdelegate.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qstyleoption.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qabstractspinbox.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtGui/qvalidator.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtCore/qregularexpression.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qslider.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qabstractslider.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qstyle.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qtabbar.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qtabwidget.h \
+		D:/Qt/5.10.1/mingw53_32/include/QtWidgets/qrubberband.h \
 		D:/Qt/5.10.1/mingw53_32/include/QtCore/QTimer \
 		D:/Qt/5.10.1/mingw53_32/include/QtCore/qtimer.h \
 		D:/Qt/5.10.1/mingw53_32/include/QtCore/qbasictimer.h
