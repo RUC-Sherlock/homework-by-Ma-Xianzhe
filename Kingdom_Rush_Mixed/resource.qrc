@@ -18,4 +18,24 @@
         <file>image/princess/lmove1.png</file>
         <file>image/princess/rmove1.png</file>
     </qresource>
+    <qresource prefix="/enemy_monster">
+        <file>image/enemy_monster/l_attack (1).png</file>
+        <file>image/enemy_monster/l_attack (2).png</file>
+        <file>image/enemy_monster/l_attack (3).png</file>
+        <file>image/enemy_monster/l_attack (4).png</file>
+        <file>image/enemy_monster/l_attack (5).png</file>
+        <file>image/enemy_monster/l_attack (6).png</file>
+        <file>image/enemy_monster/l_walk (1).png</file>
+        <file>image/enemy_monster/l_walk (2).png</file>
+        <file>image/enemy_monster/l_walk (3).png</file>
+        <file>image/enemy_monster/l_walk (4).png</file>
+        <file>image/enemy_monster/l_walk (5).png</file>
+        <file>image/enemy_monster/l_walk (6).png</file>
+        <file>image/enemy_monster/l_walk (7).png</file>
+        <file>image/enemy_monster/l_walk (8).png</file>
+        <file>image/enemy_monster/l_walk (9).png</file>
+        <file>image/enemy_monster/l_walk (10).png</file>
+        <file>image/enemy_monster/l_walk (11).png</file>
+        <file>image/enemy_monster/l_walk (12).png</file>
+    </qresource>
 </RCC>

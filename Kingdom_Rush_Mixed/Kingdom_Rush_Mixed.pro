@@ -28,13 +28,16 @@ SOURCES += \
         window.cpp \
     abstract_obj.cpp \
     live_player.cpp \
-    princess.cpp
+    princess.cpp \
+    enemy_monster.cpp
 
 HEADERS += \
         window.h \
     abstract_obj.h \
     live_player.h \
-    princess.h
+    princess.h \
+    enemy_monster.h \
+    constant.h
 
 FORMS += \
         window.ui

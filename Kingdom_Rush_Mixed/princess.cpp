@@ -17,15 +17,11 @@ static const char *dir_set[]=
     };
 static const QPoint rlocation=QPoint(64,136);
 static const QPoint rheart=QPoint(64,110);
-//以上两个点均为相对于图片左上角的坐标
-//Live_player提供了getHeart()函数，返回heart的绝对坐标
-//放心，在使用setObj_location()改变人的坐标的时候
-//内部已把图片坐标和心的坐标相应地修改了 所以可放心使用
-static const int hurtable_range=30;
-static const int attack_range=200;
-static const int MAXHP=400;
-static const int img_num=12;
-static const int speed=10;
+const int hurtable_range=30;
+const int attack_range=200;
+const int MAXHP=400;
+const int img_num=12;
+const int speed=10;
 //注意：每增加一次图片，对应在头文件Condition对应位置要写上状态
 //并且更新img_num
 //照片顺序最好符合逻辑
@@ -57,15 +53,15 @@ bool Princess::isLeft()const
 void Princess::react(Command cmd)
 {
     switch (cmd) {
-    case Lstand:
+    case Command::Lstand:
         if(!isStanding()) return;
         _condition=lstand1;
         break;
-    case Rstand:
+    case Command::Rstand:
         if(!isStanding()) return;
         _condition=rstand1;
         break;
-    case Longattack:
+    case Command::Longattack:
         if(!isStanding()) return;
         //只有静止状态才能发动攻击
         //移动过程中也不行
@@ -74,7 +70,7 @@ void Princess::react(Command cmd)
         else
             _condition=r_longattack1;
         break;//一定要记得加break!!!
-    case Move:
+    case Command::Move:
         if(_condition>=l_longattack1&&_condition<=r_longattack4) return;
         else if(isLeft())
             _condition=lmove1;
@@ -90,6 +86,8 @@ void Princess::react(Command cmd)
 void Princess::draw(QPainter &p)
 {
     Abstract_obj::draw(p,_condition);
+//    if(_condition==l_longattack3||_condition==r_longattack3)
+//        emit response(Signal::iceball);
     if(isStanding()) return;
     if(_condition>=l_longattack1&&_condition<l_longattack4)
         _condition=Condition(1+_condition);

@@ -7,6 +7,9 @@
 #include <QKeyEvent>
 #include <QImage>
 #include "princess.h"
+#include "enemy_monster.h"
+//#include "constant.h"
+
 
 namespace Ui {
 class Window;
@@ -27,7 +30,10 @@ public:
 private:
     Ui::Window *ui;
     Princess player;
+    Enemy_monster stone1;//考虑写个数组
     QImage _background;
+private slots:
+//    void react(Signal);
 };
 
 #endif // WINDOW_H

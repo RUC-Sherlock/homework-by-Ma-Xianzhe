@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\window.o
+./debug\abstract_obj.o
+./debug\live_player.o
+./debug\princess.o
+./debug\enemy_monster.o
+./debug\constant.o
+./debug\qrc_resource.o
+./debug\moc_window.o
+./debug\moc_princess.o
+);

@@ -1,13 +1,16 @@
 #ifndef PRINCESS_H
 #define PRINCESS_H
-
+#include "constant.h"
 #include "live_player.h"
 #include <QPoint>
+//#include "constant.h"
 
 class Princess : public Live_player
 {
+    Q_OBJECT
+//signals:
+//    void response(Signal);
 public:
-    enum Command{Lstand,Rstand,Longattack,Move};
     Princess(int xpos, int ypos);
     Princess(const QPoint & obj_location);
     void react(Command cmd);

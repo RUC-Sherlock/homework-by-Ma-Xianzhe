@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\window.o
+./release\abstract_obj.o
+./release\live_player.o
+./release\princess.o
+./release\enemy_monster.o
+./release\constant.o
+./release\qrc_resource.o
+./release\moc_window.o
+./release\moc_princess.o
+);
